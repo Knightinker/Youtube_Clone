@@ -1,0 +1,52 @@
+body{
+  height:3000px;
+  padding-top: 60px;
+  padding-left: 110px;
+}
+
+.header{
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+  z-index: 10;
+}
+
+.sidebar{
+  background-color: green;
+  color: white;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+}
+
+.absolute{
+  position: absolute;
+  background-color: rgba(9, 9, 9, 0.7);
+  color: white;
+  padding:  2px 4px 2px 4px;
+  border-radius: 5px;
+  border:none;
+  bottom:10px;
+  right: 10px;
+}
+
+.div1, .div2{
+  height: 200px;
+  width: 200px;
+}
+
+.div1{
+  background-color: lightblue;
+  position: static;
+}
+
+.div2{
+  background-color: lightcoral;
+  position: relative;
+}
