@@ -210,3 +210,43 @@ p {
   color: black;
   font-size: 13px;
 }
+
+.maomao-container{
+  position: relative;
+  margin-left: 50px;
+}
+
+.maomao-image{
+  height: 300px;
+}
+
+.sale{
+  position: absolute;
+  background-color: rgba(188, 188, 188, 0.726) ;
+  color: black;
+  font-size: 17px;
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  padding: 5px 15px 5px 15px;
+  top:20px;
+  right:0
+}
+
+.cart-container{
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.add-cart{
+  background-color: white;
+  padding: 5px 15px 5px 15px;
+
+}
