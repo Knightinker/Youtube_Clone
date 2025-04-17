@@ -30,6 +30,9 @@
   position: relative;
 }
 
+.thumbnail{
+  border-radius: 9px;
+}
 .video-time{
   position: absolute;
   bottom: 11px;
